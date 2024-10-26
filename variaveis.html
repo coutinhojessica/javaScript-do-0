@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Javascript</title>
+</head>
+<body>
+    <h1>Aula 2 - Variáveis e Tipos de dados</h1>
+
+    <script>
+        // strings => textos
+
+        const mensagem = "Jéssica";
+        // menssage.length => Mostra o número de caracteres do texto ou palavra.
+        console.log(mensagem.length);
+        document.write(mensagem.length);
+
+        const firstName = "Jéssica";
+        const lastName = "Coutinho";
+
+        // Jeito antigo de fazer
+        console.log("Meu nome é: " + firstName + ' ' + lastName);
+
+        //Jeito novo
+        console.log(`Meu nome é: ${firstName} ${lastName}`);
+
+        //Maiúscula e Minúscula
+        console.log(`Meu nome é: ${firstName.toUpperCase()} ${lastName.toLowerCase()}`);
+
+        //Criando uma lista
+        const names = "João, Maria, Mirela, Josefa";
+        console.log(names.split(","));
+
+        //Number
+
+        const number = 10;
+        console.log(number.toString());
+        // Verificar o tipo da variável
+        console.log(typeof number.toString);
+
+        //Booleanos
+        console.log(2 == 2);
+
+        //null & Undefined
+        const a = null;
+        const y = undefined;
+
+    </script>
+</body>
+</html>

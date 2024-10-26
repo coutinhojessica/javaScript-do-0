@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curso Javascript</title>
+  </head>
+  <body>
+    <h1>Aula 3 - Lista</h1>
+    <script>
+      const list = [1, 2, 3, 4, 5];
+
+      //Acessar um item da lista
+      const item = list[1];
+      console.log(item);
+
+      //Adiciona um item ao final do Array
+      list.push(6, 7);
+      //console.log(list);
+
+      //Adiciona um item no inicio do Array
+      list.unshift(0);
+      //console.log(list);
+
+      //Remover o primeiro item do array
+      //list.shift();
+      //console.log(list);
+
+      //Remover o último item do array
+      //list.pop();
+      //console.log(list);
+
+      //Alterando um dos itens do array
+      list[7] = 10;
+     //console.log(list);
+
+     //Retorna o primeiro índice que o elemento pode ser encontrado no array. Caso o retorno for -1, item não encontrado.
+     //array.indexOf(elementoDePesquisa, [pontoInicial = 0])
+     console.log(list.indexOf(10, 5));
+
+     //New array
+
+     const names = [];
+     names[0] = "Jéssica";
+     names[1] = "Joane";
+     names[2] = "Jailma";
+
+     names.unshift("Victor");
+     names.push("Hamilton");
+
+     console.log(names);
+
+
+
+    </script>
+  </body>
+</html>

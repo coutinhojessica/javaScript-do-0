@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso JavaScript</title>
+</head>
+<body>
+    <h1>Funções</h1>
+
+    <p id="mostrar"></p>
+
+    <p id="message"></p>
+
+    <script>
+        function primeirafuncao(n1, n2, n3){
+            return n1 + (n2 * n3);
+        };
+
+        let result = primeirafuncao(2, 5, 8);
+        document.getElementById('mostrar').innerHTML = result;
+
+        function exibirMsg(){
+            let saudacao = 'Olá, Mundo! :D';
+            document.getElementById('message').innerHTML = saudacao;
+        }; 
+        exibirMsg();
+        
+
+    </script>
+    
+</body>
+</html>

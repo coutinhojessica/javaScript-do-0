@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Operadores</title>
+  </head>
+  <body>
+    <h1>Operadores</h1>
+    <p>Exemplo:</p>
+
+    <p>O operador de atribuição = atribui valores.</p>
+
+    <p>O operador de Adição + adiciona valores.</p>
+
+    <p>O operador de subtração - subtrai valores.</p>
+
+    <p>O operador de multiplicação * multiplica valores.</p>
+
+    <p>O operador de comparação > compara valores.</p>
+
+    <h2>Operadores Aritméticos JavaScript</h2>
+    <p>
+      ** Exponentiation (ES2016)<br> 
+      % Modulus (Remainder)<br>
+      ++ Increment<br> 
+      -- Decrement
+    </p>
+
+    <p>Assim como na matemática escolar tradicional, a multiplicação é feita primeiro. Multiplicação ( *) e divisão ( /) têm maior precedência do que adição ( +) e subtração ( -).</p>
+
+    <p id="exemplo"></p>
+
+    <script>
+      let a = 10;
+      let b = 22;
+
+      let soma = a + b;
+      console.log(soma);
+
+      let subtracao = a - b;
+      console.log(subtracao);
+
+      let multiplica = a * b;
+      console.log(multiplica);
+
+      let dividir = a / b;
+      console.log(dividir);
+
+      let bool = a > b;
+      console.log(bool);
+
+      let modulo = a % b;
+      console.log (modulo);
+
+      let incremento = a;
+      incremento ++;
+      console.log(incremento);
+
+      let decremento = b;
+      decremento --;
+      console.log(decremento);
+
+      let exponenciacao = b ** 4;
+      console.log(exponenciacao);
+
+      let x = Math.pow(a, 3);
+      console.log(x);
+
+      document.getElementById("exemplo").innerHTML = bool;
+    </script>
+  </body>
+</html>
